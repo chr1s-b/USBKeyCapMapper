@@ -83,5 +83,4 @@ def map_data(data,map_=defaultmap):
 if __name__ == "__main__":
     capture_data = get_usb_capture("demo.pcap")
     result = map_data(capture_data)
-
     print(result)
